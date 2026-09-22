@@ -67,25 +67,20 @@ This repo walks through building a RAG system step by step, moving from raw docu
 
 ## Getting Started
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/avankumar23/RAG-Pipeline_From_Data_Ingestion-VectorDB.git
-   cd RAG-Pipeline_From_Data_Ingestion-VectorDB
-   ```
 
-2. **Install dependencies**
+1. **Install dependencies**
    ```bash
    pip install -r src/requirements.txt
    ```
 
-3. **Set up environment variables**
+2. **Set up environment variables**
    Create a `.env` file with the API keys needed for the notebooks you plan to run:
    ```
    GROQ_API_KEY=your_groq_api_key
    OPENAI_API_KEY=your_openai_api_key
    ```
 
-4. **Run the notebooks in order** to follow the pipeline from ingestion through evaluation, or jump directly to the stage you're interested in.
+3. **Run the notebooks in order** to follow the pipeline from ingestion through evaluation, or jump directly to the stage you're interested in.
 
 ## Notes
 
